@@ -89,7 +89,6 @@ MediaHelp 是一个强大的媒体资源管理工具，支持多个主流网盘�
 docker run -d \
   -p 3300:80 \
   -p 8091:8091 \
-  -v /你的配置目录:/app/backend/config \
   -v /你的配置目录:/app/backend/db \
   -v /你的配置目录:/app/backend/strm \
   --name mediahelper \
@@ -97,11 +96,27 @@ docker run -d \
   rongyunmu/mediahelp
 ```
 
+```yaml
+version: '3.8'
+services:
+  mediahelper:
+    image: rongyunmu/mediahelp
+    container_name: mediahelper
+    restart: unless-stopped
+    ports:
+      - "3300:80"     # 网页访问端口
+      - "8091:8091"   # 后端服务端口
+    volumes:
+      - /你的配置目录:/app/backend/db        # 数据库存储
+      - /你的配置目录:/app/backend/strm      # strm存储
+```
+
 ### 配置说明
 1. 访问 `http://你的IP:3300`
 2. 使用默认账户登录：
    - 用户名：`admin`
    - 密码：`admin`
+3.strm绑定的目录必须以strm结尾 为了方便emby通知删除
 
 > ⚠️ 安全提示：强烈建议私有化部署，因为涉及个人网盘信息安全。
 > 由于特殊原因，源码停止于此版本， docker镜像会一直更新
