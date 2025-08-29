@@ -7,8 +7,7 @@
     
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://hub.docker.com/r/rongyunmu/mediahelp)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/MediaHelper?style=social)](https://github.com/JieWSOFT/MediaHelp)
-    
+[![GitHub stars](https://img.shields.io/github/stars/JieWSOFT/MediaHelp?style=social)](https://github.com/JieWSOFT/MediaHelp)
 </div>
 
 ## 📖 简介
