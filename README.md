@@ -3,7 +3,7 @@
 <div align="center">
     <img src="/frontend/apps/web-antd/public/icon.png" alt="MediaHelper Logo" width="200" height="150" />
     <h1>MediaHelp</h1>
-    <p>🎬 一站式媒体资源管理助手</p>
+    <p>🎬 一站式媒体资源管理助手(支持PWA模式)</p>
     
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://hub.docker.com/r/rongyunmu/mediahelp)
