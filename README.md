@@ -7,7 +7,7 @@
     
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://hub.docker.com/r/rongyunmu/mediahelp)
-[![docker image size](https://img.shields.io/docker/image-size/rongyunmu/mediahelp:latest?logo=docker&&logoColor=white)](https://hub.docker.com/r/rongyunmu/mediahelp)
+[![docker image size](https://img.shields.io/docker/image-size/rongyunmu/mediahelp/latest?logo=docker&&logoColor=white)](https://hub.docker.com/r/rongyunmu/mediahelp)
 [![GitHub stars](https://img.shields.io/github/stars/JieWSOFT/MediaHelp?style=social)](https://github.com/JieWSOFT/MediaHelp)
 </div>
 
