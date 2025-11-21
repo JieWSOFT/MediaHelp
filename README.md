@@ -80,6 +80,11 @@ MediaHelp 是一个强大的媒体资源管理工具，支持多个主流网盘�
 </div>
 </details>
 
+支持精美海报自动生成
+
+<img width="2322" height="606" alt="image" src="https://github.com/user-attachments/assets/1eccdb65-2d34-4154-b910-5b4e783a3ae1" />
+
+
 <!-- ## 🚀 快速开始
 
 ### 系统要求
